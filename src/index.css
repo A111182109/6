@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body {
+  background-color: #050505;
+  color: #e5e5e5;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.accent-glow {
+  text-shadow: 0 0 15px rgba(34, 211, 238, 0.5);
+}
+
+.timeline-line {
+  position: absolute;
+  left: 7px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(34, 211, 238, 0.3);
+}
+
+.nav-btn {
+  transition: all 0.2s ease;
+  border: 1px solid rgba(34, 211, 238, 0.3);
+}
+
+.nav-btn:hover {
+  background: rgba(34, 211, 238, 0.1);
+  border-color: #22d3ee;
+}
